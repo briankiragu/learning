@@ -1,13 +1,4 @@
-def fibonacci(position):
-    print("Getting fibonacci number at position {}...".format(position))
-
-    # Check if position is 0 (last value). If so, return.
-    if position <= 1:
-        return position
-
-    # Otherwise, return fibonacci of previous two values;
-    # that is (position - 1 and position - 2)
-    return fibonacci(position - 2) + fibonacci(position - 1)
+from lib.recursion.fibonacci import fibonacci
 
 
 def main():
