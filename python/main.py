@@ -1,9 +1,8 @@
-from lib.recursion.fibonacci import fibonacci
+from lib.interviewcake.wordcloud import wordcloud
 
 
 def main():
-    value = fibonacci(8)
-    print("Fibonacci value at position {0} is: {1}".format(5, value))
+    wordcloud()
 
 
 if __name__ == "__main__":
